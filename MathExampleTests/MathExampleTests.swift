@@ -10,27 +10,39 @@ import XCTest
 
 class MathExampleTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+  func testAdd() {
+    let mathManager = MathManager()
+    let result = mathManager.addNumbers(9, 10)
+    XCTAssertEqual(result, 19)
+  }
+  
+  func testSubtract() {
+    let mathManager = MathManager()
+    let result = mathManager.subtractNumbers(100, 10)
+    XCTAssertEqual(result, 90)
+  }
+  
+  func testMultiply() {
+    let mathManager = MathManager()
+    let result = mathManager.multiplyNumbers(10, 10)
+    XCTAssertEqual(result, 100)
+  }
+  
+  func testDivide() {
+    let mathManager = MathManager()
+    let result = mathManager.divideNumbers(100, 20)
+    XCTAssertEqual(result, 5)
+  }
+  
+  func testSpecialEquation() {
+    let mathManager = MathManager()
+    let x = mathManager.addNumbers(4, 8)
+    let y = mathManager.multiplyNumbers(3, 2)
+    
+    // x = 12, y = 6. x + y = 18
+    
+    let result = mathManager.addNumbers(x, y)
+    XCTAssertEqual(result, 18)
+  }
 
 }

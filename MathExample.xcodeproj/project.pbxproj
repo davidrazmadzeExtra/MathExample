@@ -16,6 +16,9 @@
 		75C9FB2828A80F780008D4F5 /* MathExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FB2728A80F780008D4F5 /* MathExampleTests.swift */; };
 		75C9FB3228A80F780008D4F5 /* MathExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FB3128A80F780008D4F5 /* MathExampleUITests.swift */; };
 		75C9FB3428A80F780008D4F5 /* MathExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FB3328A80F780008D4F5 /* MathExampleUITestsLaunchTests.swift */; };
+		75C9FB4128A80FC40008D4F5 /* MathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FB4028A80FC40008D4F5 /* MathManager.swift */; };
+		75C9FB4328A8116E0008D4F5 /* TemperatureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FB4228A8116E0008D4F5 /* TemperatureManager.swift */; };
+		75C9FB4528A811EE0008D4F5 /* TemperatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9FB4428A811EE0008D4F5 /* TemperatureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		75C9FB2D28A80F780008D4F5 /* MathExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C9FB3128A80F780008D4F5 /* MathExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExampleUITests.swift; sourceTree = "<group>"; };
 		75C9FB3328A80F780008D4F5 /* MathExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75C9FB4028A80FC40008D4F5 /* MathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathManager.swift; sourceTree = "<group>"; };
+		75C9FB4228A8116E0008D4F5 /* TemperatureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureManager.swift; sourceTree = "<group>"; };
+		75C9FB4428A811EE0008D4F5 /* TemperatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,8 @@
 				75C9FB1928A80F780008D4F5 /* Assets.xcassets */,
 				75C9FB1B28A80F780008D4F5 /* LaunchScreen.storyboard */,
 				75C9FB1E28A80F780008D4F5 /* Info.plist */,
+				75C9FB4028A80FC40008D4F5 /* MathManager.swift */,
+				75C9FB4228A8116E0008D4F5 /* TemperatureManager.swift */,
 			);
 			path = MathExample;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				75C9FB2728A80F780008D4F5 /* MathExampleTests.swift */,
+				75C9FB4428A811EE0008D4F5 /* TemperatureTests.swift */,
 			);
 			path = MathExampleTests;
 			sourceTree = "<group>";
@@ -259,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75C9FB1528A80F770008D4F5 /* ViewController.swift in Sources */,
+				75C9FB4128A80FC40008D4F5 /* MathManager.swift in Sources */,
 				75C9FB1128A80F770008D4F5 /* AppDelegate.swift in Sources */,
+				75C9FB4328A8116E0008D4F5 /* TemperatureManager.swift in Sources */,
 				75C9FB1328A80F770008D4F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C9FB4528A811EE0008D4F5 /* TemperatureTests.swift in Sources */,
 				75C9FB2828A80F780008D4F5 /* MathExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
